@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:background="@color/primaryColor">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/logout"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="18dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/btnlogout"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/back"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="18dp"
+        android:id="@+id/back1"/>
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/back1"
+        android:src="@drawable/profil"
+        android:id="@+id/logoprf"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logoprf"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:text="Username"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:id="@+id/p_user"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/p_user"
+        android:layout_marginTop="3dp"
+        android:layout_centerHorizontal="true"
+        android:text="email"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:id="@+id/p_email"/>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/p_email"
+        android:padding="20dp"
+        android:id="@+id/editteksp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="New Username"
+        android:background="@color/secondaryColor"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/newuser" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="New Email"
+        android:background="@color/secondaryColor"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/newemail" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="New Password"
+        android:background="@color/secondaryColor"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/newpsw" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="Update profile"
+        android:layout_below="@+id/editteksp"
+        android:id="@+id/btnupdate" />
+
+</RelativeLayout>

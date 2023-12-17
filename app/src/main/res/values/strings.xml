@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">EksploreKekayaanAlamBudaya</string>
+    <string name="click_detail_lokasi"><a href="https://goo.gl/maps/Kvo94mWXHscLfrzz9">Click -> Detail Lokasi Pasir Putih</a></string>
+    <string name="click_detail_lokasi_geopark_silokek"><a href="https://maps.app.goo.gl/Lxa3EcU13Q1Ewuss6">Click -> Detail Lokasi Geopark Silokek</a></string>
+    <string name="click_detail_lokasi_telabung_sakti"><a href="https://maps.app.goo.gl/jYEuNnkj2TFQzbP39">Click -> Detail Lokasi Telabung Sakti</a></string>
+    <string name="click_detail_lokasi_ngalau_talago_silokek"><a href="https://maps.app.goo.gl/aiKMgZUbepSFMoG47">Click -> Detail Lokasi Ngalau Talago Silokek</a></string>
+    <string name="click_vidio_bakaua_adat"><a href="https://youtu.be/ciysFBpc67g?si=DBQiKENOmOOYItIr">Click -> Vidio Bakaua Adat</a></string>
+    <string name="click_lokasi_bakaua_adat_sijunjung"><a href="https://goo.gl/maps/HN5wQNkYtRspfEyp8">Click -> Lokasi Bakaua Adat Sijunjung</a></string>
+    <string name="click_vidio_festival_budaya_sijunjung"><a href="https://www.youtube.com/live/OwDdeV-BVQg?si=b8oTPcqU7DQv0Xdr">Click -> Vidio Festival Budaya Sijunjung</a></string>
+    <string name="click_lokasi_festival_budaya"><a href="https://goo.gl/maps/cnSTCwkqu7nD5eBw8">Click -> Lokasi Festival Budaya</a></string>
+    <string name="click_vidio_alek_batagak_gala_sijunjung"><a href="https://www.youtube.com/live/GFXo3aSwEig?si=wct95hkytdIRPVKo">Click -> Vidio Alek Batagak Gala Sijunjung</a></string>
+
+</resources>

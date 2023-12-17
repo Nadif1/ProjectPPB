@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BakauaAdatActivity"
+    android:background="@color/primaryColor">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/back"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="18dp"
+        android:id="@+id/back7"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/bakaua"
+        android:layout_below="@id/back7"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/bakaua"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/click_vidio_bakaua_adat"
+        android:textSize="18dp"
+        android:layout_below="@+id/bakaua"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linkba"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/deskbas"
+        android:layout_below="@id/linkba"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/deskbas"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/click_lokasi_bakaua_adat_sijunjung"
+        android:textSize="18dp"
+        android:layout_below="@+id/deskbas"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linkbas"/>
+
+</RelativeLayout>

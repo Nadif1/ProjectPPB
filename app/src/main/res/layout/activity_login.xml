@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@color/primaryColor">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/logo"
+        android:padding="20dp"
+        android:id="@+id/editteks">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Username"
+            android:background="@color/secondaryColor"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/loginuser" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Password"
+            android:background="@color/secondaryColor"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/loginpsw" />
+
+    </LinearLayout>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editteks"
+        android:layout_centerHorizontal="true"
+        android:width="270dp"
+        android:height="50dp"
+        android:text="LOGIN"
+        android:background="@color/secondaryColor"
+        android:layout_marginTop="20dp"
+        android:id="@+id/button4" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/button4"
+        android:gravity="center"
+        android:layout_marginTop="50dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don’t have an account? "
+            android:fontFamily="sans-serif"
+            android:textSize="15sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:fontFamily="sans-serif-black"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:id="@+id/txt_signup"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
